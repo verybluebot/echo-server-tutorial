@@ -49,7 +49,7 @@ Clone the project:
  ```
  checkout to the branch you wand and build/run like before:
  ```
-  git checkout part_1_helloworld
+  git checkout part_1_hello_world
  
   go install main
  
