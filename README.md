@@ -14,7 +14,7 @@ master is the last published part.
 ## Installation
 Clone the project:
 ```
-  git clone http://github.com/verybluebot/echo-server-tutorial.git
+  git clone https://github.com/verybluebot/echo-server-tutorial.git
  ```
  cd into it:
  ```
