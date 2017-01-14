@@ -1,8 +1,8 @@
-# Golnag Server using Echo Tutorials Series 
-Sources for tutorials series on Youtube for creating a web server in Golang using the [Echo](https://github.com/labstack/echo) Package.
+# Golnag Server using Echo Tutorials Series - [Link](https://www.youtube.com/watch?v=_pww3NJuWnk&list=PLFmONUGpIk0YwlJMZOo21a9Q1juVrk4YY)
+Sources for [tutorial series on Youtube](https://www.youtube.com/watch?v=_pww3NJuWnk&list=PLFmONUGpIk0YwlJMZOo21a9Q1juVrk4YY) for creating a web server in Golang using the [Echo](https://github.com/labstack/echo) Package.
 
 ## Description 
-The Series will go through most of [Echo](https://github.com/labstack/echo) features like requests types, CRUD, playing with headers, cookies
+The [Series](https://www.youtube.com/watch?v=_pww3NJuWnk&list=PLFmONUGpIk0YwlJMZOo21a9Q1juVrk4YY) will go through most of [Echo](https://github.com/labstack/echo) features like requests types, CRUD, playing with headers, cookies
 Middlewares and more.
 Starting from the very basic 'hello world' and finishing with a full production server ready for a real
 life app.
