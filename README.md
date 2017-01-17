@@ -47,7 +47,7 @@ Clone the project:
  ```
   git branch -a
  ```
- checkout to the branch you wand and build/run like before:
+ checkout to the branch you want and build/run like before:
  ```
   git checkout part_1_hello_world
  
