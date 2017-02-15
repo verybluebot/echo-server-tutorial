@@ -41,7 +41,7 @@ func main() {
     e := echo.New()
 
     e.GET("/", yallo)
-    e.GET("/cats/:id", getCats)
+    e.GET("/cats/:data", getCats)
 
     e.Start(":8000")
 }
