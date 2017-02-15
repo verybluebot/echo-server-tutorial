@@ -107,7 +107,7 @@ func main() {
     e := echo.New()
 
     e.GET("/", yallo)
-    e.GET("/cats/:id", getCats)
+    e.GET("/cats/:data", getCats)
 
     e.POST("/cats", addCat)
     e.POST("/dogs", addDog)
