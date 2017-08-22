@@ -220,6 +220,10 @@ func main() {
     cookieGroup := e.Group("/cookie")
     jwtGroup := e.Group("/jwt")
 
+    e.Use(middleware.StaticWithConfig(middleware.StaticConfig{
+
+    }))
+
     // this logs the server interaction
     adminGroup.Use(middleware.LoggerWithConfig(middleware.LoggerConfig{
         Format: `[${time_rfc3339}]  ${status}  ${method} ${host}${path} ${latency_human}` + "\n",
@@ -248,7 +252,7 @@ func main() {
     jwtGroup.GET("/main", mainJwt)
 
     e.GET("/login", login)
-    e.GET("/", yallo)
+    e.GET("/yallo", yallo)
     e.GET("/cats/:data", getCats)
 
     e.POST("/cats", addCat)
