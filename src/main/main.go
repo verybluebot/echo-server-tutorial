@@ -221,7 +221,7 @@ func main() {
     jwtGroup := e.Group("/jwt")
 
     e.Use(middleware.StaticWithConfig(middleware.StaticConfig{
-
+        Root: "../static",
     }))
 
     // this logs the server interaction
