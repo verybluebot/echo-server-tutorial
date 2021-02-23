@@ -1,4 +1,4 @@
-# Golnag Server using Echo Tutorials Series - [Link](https://www.youtube.com/watch?v=_pww3NJuWnk&list=PLFmONUGpIk0YwlJMZOo21a9Q1juVrk4YY)
+# Golang Server using Echo Tutorials Series - [Link](https://www.youtube.com/watch?v=_pww3NJuWnk&list=PLFmONUGpIk0YwlJMZOo21a9Q1juVrk4YY)
 Sources for [tutorial series on Youtube](https://www.youtube.com/watch?v=_pww3NJuWnk&list=PLFmONUGpIk0YwlJMZOo21a9Q1juVrk4YY) for creating a web server in Golang using the [Echo](https://github.com/labstack/echo) Package.
 
 ## Description 
